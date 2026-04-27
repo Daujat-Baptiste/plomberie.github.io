@@ -74,6 +74,8 @@
   <!-- Google Fonts en asynchrone (non-bloquant) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Précharge la fonte du h1 (LCP) -->
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/dmserifdisplay/v16/-nFnOHM81r4j6k0gjALR8uVYQLtHoAK3.woff2">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap" onload="this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap"></noscript>
 </head>
@@ -117,13 +119,13 @@
   <!-- HERO -->
   <section class="hero">
     <div class="wrap hero-body">
-      <div class="hero-tag rv"><div class="hero-tag-line"></div>Plombier · Chauffagiste</div>
-      <h1 class="rv">Votre artisan,<br><em>sans intermédiaire.</em></h1>
-      <p class="hero-sub rv">
+      <div class="hero-tag"><div class="hero-tag-line"></div>Plombier · Chauffagiste</div>
+      <h1>Votre artisan,<br><em>sans intermédiaire.</em></h1>
+      <p class="hero-sub">
         Je suis Nicolas, plombier chauffagiste indépendant dans l'Ain.
         Dépannage, installation, entretien — je m'occupe de tout, du premier appel à la fin du chantier.
       </p>
-      <div class="hero-actions rv">
+      <div class="hero-actions">
         <a href="#contact" class="btn-dark">
           Demander un devis
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -136,7 +138,7 @@
     </div>
 
     <div class="wrap">
-      <div class="hero-bar rv">
+      <div class="hero-bar">
         <div class="hero-bar-item">
           <div class="hero-bar-icon">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
