@@ -87,6 +87,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap" onload="this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap"></noscript>
+  <meta name="theme-color" content="#1B3D6B">
 </head>
 <body>
 
@@ -94,7 +95,7 @@
   <nav class="nav" id="nav">
     <div class="nav-row">
       <a href="#" class="nav-logo">
-        <img src="assets/images/logo.png" alt="Beja Nicolas — Plombier Chauffagiste" height="62">
+        <img src="assets/images/logo.png" alt="Beja Nicolas — Plombier Chauffagiste" width="88" height="62">
       </a>
 
       <ul class="nav-links">
@@ -289,7 +290,10 @@
         </div>
 
         <div class="about-photo rv">
-          <img src="assets/images/portrait.jpg" alt="Nicolas BEJA, plombier chauffagiste">
+          <picture>
+            <source srcset="assets/images/portrait.webp" type="image/webp">
+            <img src="assets/images/portrait.jpg" alt="Nicolas BEJA, plombier chauffagiste" width="800" height="1200" loading="lazy">
+          </picture>
         </div>
 
       </div>
@@ -374,7 +378,7 @@
   <footer class="footer">
     <div class="wrap footer-inner">
       <a href="#" class="footer-logo">
-        <img src="assets/images/logo.png" alt="Beja Nicolas — Plombier Chauffagiste" height="54">
+        <img src="assets/images/logo.png" alt="Beja Nicolas — Plombier Chauffagiste" width="76" height="54">
       </a>
       <div class="footer-links">
         <a href="mentions-legales.html">Mentions légales</a>
