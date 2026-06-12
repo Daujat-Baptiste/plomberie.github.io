@@ -1,391 +1,684 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nicolas BEJA — Plombier Chauffagiste dans l'Ain (01)</title>
-  <meta name="description" content="Plombier chauffagiste SARL dans l'Ain (Revonnas, 01250). Dépannage, installation sanitaire, chauffage, chaudière. Devis gratuit, intervention rapide.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nicolas BEJA — Plombier Chauffagiste dans l'Ain (01)</title>
+    <meta
+      name="description"
+      content="Plombier chauffagiste dans l'Ain (01). Entreprise familiale à Revonnas — dépannage, installation sanitaire, chauffage, climatisation. Devis gratuit, intervention rapide."
+    />
 
-  <!-- Open Graph -->
-  <meta property="og:type"        content="website">
-  <meta property="og:locale"      content="fr_FR">
-  <meta property="og:title"       content="Nicolas BEJA — Plombier Chauffagiste dans l'Ain (01)">
-  <meta property="og:description" content="Plombier chauffagiste SARL dans l'Ain (Revonnas, 01250). Dépannage, installation sanitaire, chauffage, chaudière. Devis gratuit, intervention rapide.">
-  <meta property="og:url"         content="https://www.beja-plomberie.fr/">
-  <meta property="og:site_name"   content="Beja Nicolas — Plombier Chauffagiste">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta
+      property="og:title"
+      content="Nicolas BEJA — Plombier Chauffagiste dans l'Ain (01)"
+    />
+    <meta
+      property="og:description"
+      content="Plombier chauffagiste dans l'Ain (01). Entreprise familiale à Revonnas — dépannage, installation sanitaire, chauffage, climatisation. Devis gratuit, intervention rapide."
+    />
+    <meta property="og:url" content="https://www.beja-plomberie.fr/" />
+    <meta property="og:image" content="https://www.beja-plomberie.fr/assets/images/logo.png" />
+    <meta
+      property="og:site_name"
+      content="Beja Nicolas — Plombier Chauffagiste"
+    />
+    <link rel="canonical" href="https://www.beja-plomberie.fr/" />
+    <meta name="robots" content="index, follow" />
 
-  <!-- JSON-LD LocalBusiness -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Plumber",
-    "name": "Beja Nicolas",
-    "legalName": "Beja Nicolas SARL",
-    "url": "https://www.beja-plomberie.fr/",
-    "telephone": "+33662655575",
-    "email": "contact@beja-chauffage.fr",
-    "vatID": "FR990108763",
-    "sameAs": [],
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "116 Impasse de la Grillette",
-      "addressLocality": "Revonnas",
-      "postalCode": "01250",
-      "addressCountry": "FR"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 46.1717,
-      "longitude": 5.3094
-    },
-    "areaServed": [
-      { "@type": "AdministrativeArea", "name": "Ain" },
-      { "@type": "AdministrativeArea", "name": "Jura" },
-      { "@type": "AdministrativeArea", "name": "Rhône" },
-      { "@type": "AdministrativeArea", "name": "Saône-et-Loire" },
-      { "@type": "AdministrativeArea", "name": "Isère" },
-      { "@type": "AdministrativeArea", "name": "Haute-Savoie" }
-    ],
-    "priceRange": "€€",
-    "openingHoursSpecification": [
+    <!-- JSON-LD LocalBusiness -->
+    <script type="application/ld+json">
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-        "opens": "08:00",
-        "closes": "18:00"
+        "@context": "https://schema.org",
+        "@type": "Plumber",
+        "name": "Beja Nicolas",
+        "legalName": "Beja Nicolas SARL",
+        "url": "https://www.beja-plomberie.fr/",
+        "telephone": "+33662655575",
+        "email": "contact@beja-chauffage.fr",
+        "vatID": "FR990108763",
+        "sameAs": [],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "116 Impasse de la Grillette",
+          "addressLocality": "Revonnas",
+          "postalCode": "01250",
+          "addressCountry": "FR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 46.1717,
+          "longitude": 5.3094
+        },
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Ain" },
+          { "@type": "AdministrativeArea", "name": "Jura" },
+          { "@type": "AdministrativeArea", "name": "Rhône" },
+          { "@type": "AdministrativeArea", "name": "Saône-et-Loire" },
+          { "@type": "AdministrativeArea", "name": "Isère" },
+          { "@type": "AdministrativeArea", "name": "Haute-Savoie" }
+        ],
+        "priceRange": "€€",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "18:00"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Services de plomberie et chauffage",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Plomberie générale"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Chauffage et chaudière"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Rénovation salle de bain"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": { "@type": "Service", "name": "Débouchage" }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Eau chaude sanitaire"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": { "@type": "Service", "name": "Climatisation" }
+            }
+          ]
+        }
       }
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Services de plomberie et chauffage",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plomberie générale" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chauffage et chaudière" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rénovation salle de bain" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Débouchage" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Eau chaude sanitaire" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Climatisation" } }
-      ]
-    }
-  }
-  </script>
+    </script>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <meta name="apple-mobile-web-app-title" content="Beja Nicolas">
-  <link rel="manifest" href="site.webmanifest">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Beja Nicolas" />
+    <link rel="manifest" href="site.webmanifest" />
 
-  <!-- Preload CSS critique -->
-  <link rel="preload" href="css/style.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="css/style.css"></noscript>
+    <!-- Preload CSS critique -->
+    <link
+      rel="preload"
+      href="css/style.css"
+      as="style"
+      onload="this.rel = 'stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="css/style.css" /></noscript>
 
-  <!-- Polices auto-hébergées -->
-  <link rel="preload" href="fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="fonts/dm-serif-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <meta name="theme-color" content="#1B3D6B">
-</head>
-<body>
-
-  <!-- NAV -->
-  <nav class="nav" id="nav">
-    <div class="nav-row">
-      <a href="#" class="nav-logo">
-        <img src="assets/images/logo.png" alt="Beja Nicolas — Plombier Chauffagiste" width="88" height="62">
-      </a>
-
-      <ul class="nav-links">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">À propos</a></li>
-        <li><a href="#zone">Zone</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-
-      <a href="tel:+33609554565" class="nav-tel">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/>
-        </svg>
-        06 09 55 45 65
-      </a>
-
-      <button class="burger" id="burger" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </nav>
-
-  <div class="drawer" id="drawer">
-    <a href="#services" class="dl">Services</a>
-    <a href="#about"    class="dl">À propos</a>
-    <a href="#zone"     class="dl">Zone d'intervention</a>
-    <a href="#contact"  class="dl">Contact</a>
-    <a href="tel:+33609554565" class="cta">06 09 55 45 65</a>
-  </div>
-
-  <main>
-
-  <!-- HERO -->
-  <section class="hero">
-    <div class="wrap hero-body">
-      <div class="hero-tag"><div class="hero-tag-line"></div>Plombier · Chauffagiste</div>
-      <h1>Votre artisan,<br><em>sans intermédiaire.</em></h1>
-      <p class="hero-sub">
-        Je suis Nicolas, plombier chauffagiste indépendant dans l'Ain.
-        Dépannage, installation, entretien — je m'occupe de tout, du premier appel à la fin du chantier.
-      </p>
-      <div class="hero-actions">
-        <a href="#contact" class="btn-dark">
-          Demander un devis
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    <!-- Polices auto-hébergées -->
+    <link
+      rel="preload"
+      href="fonts/dm-sans-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/dm-serif-normal-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <meta name="theme-color" content="#1B3D6B" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+      <div class="nav-row">
+        <a href="#" class="nav-logo">
+          <img
+            src="assets/images/logo.png"
+            alt="Beja Nicolas — Plombier Chauffagiste"
+            width="88"
+            height="62"
+          />
         </a>
-        <a href="tel:+33609554565" class="btn-ghost">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
-          Appeler directement
+
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="realisations.html">Réalisations</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#zone">Zone</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="tel:+33662655575" class="nav-tel">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"
+            />
+          </svg>
+          06 62 65 55 75
         </a>
+
+        <button class="burger" id="burger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
       </div>
+    </nav>
+
+    <div class="drawer" id="drawer">
+      <a href="#services" class="dl">Services</a>
+      <a href="realisations.html" class="dl">Réalisations</a>
+      <a href="#about" class="dl">À propos</a>
+      <a href="#zone" class="dl">Zone d'intervention</a>
+      <a href="#contact" class="dl">Contact</a>
+      <a href="tel:+33662655575" class="cta">06 62 65 55 75</a>
     </div>
 
-    <div class="wrap">
-      <div class="hero-bar">
-        <div class="hero-bar-item">
-          <div class="hero-bar-icon">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="wrap hero-body">
+          <div class="hero-tag">
+            <div class="hero-tag-line"></div>
+            Plombier · Chauffagiste
           </div>
-          Intervention sous 24h
-        </div>
-        <div class="hero-bar-item">
-          <div class="hero-bar-icon">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9"/></svg>
+          <h1>Votre artisan,<br /><em>du devis au chantier.</em></h1>
+          <p class="hero-sub">
+            Entreprise familiale basée dans l'Ain, Nicolas et Lucie co-dirigent
+            une structure à taille humaine. Plomberie, chauffage, climatisation
+            et salle de bain — du premier appel à la réception du chantier,
+            votre projet est entre de bonnes mains.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-dark">
+              Demander un devis
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="tel:+33662655575" class="btn-ghost">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"
+                />
+              </svg>
+              Appeler directement
+            </a>
           </div>
-          Devis gratuit &amp; sans engagement
         </div>
-        <div class="hero-bar-item">
-          <div class="hero-bar-icon">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          </div>
-          Garantie décennale
-        </div>
-        <div class="hero-bar-item">
-          <div class="hero-bar-icon">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-          </div>
-          Artisan indépendant
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- SERVICES -->
-  <section class="services" id="services">
-    <div class="wrap">
-      <div class="services-top rv">
-        <div>
-          <div class="sec-label">Mes prestations</div>
-          <h2 class="sec-title">Ce que je fais</h2>
-        </div>
-        <p>Du dépannage à la rénovation complète, j'interviens sur tous vos travaux de plomberie et chauffage.</p>
-      </div>
-
-      <div class="services-list rv">
-
-        <div class="service-row">
-          <div class="service-row-left">
-            <span class="service-num">01</span>
-            <div>
-              <h3>Plomberie générale</h3>
-              <p>Fuite, robinet, chauffe-eau, siphon, WC — tout ce qui touche à l'eau.</p>
+        <div class="wrap">
+          <div class="hero-bar">
+            <div class="hero-bar-item">
+              <div class="hero-bar-icon">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              Intervention sous 24h
             </div>
-          </div>
-          <span class="service-tag">Dépannage &amp; pose</span>
-        </div>
-
-        <div class="service-row">
-          <div class="service-row-left">
-            <span class="service-num">02</span>
-            <div>
-              <h3>Chauffage &amp; chaudière</h3>
-              <p>Installation, remplacement, entretien annuel de chaudière gaz ou fioul.</p>
+            <div class="hero-bar-item">
+              <div class="hero-bar-icon">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M9 12l2 2 4-4" />
+                  <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9" />
+                </svg>
+              </div>
+              Devis gratuit &amp; sans engagement
             </div>
-          </div>
-          <span class="service-tag">Entretien &amp; installation</span>
-        </div>
-
-        <div class="service-row">
-          <div class="service-row-left">
-            <span class="service-num">03</span>
-            <div>
-              <h3>Salle de bain</h3>
-              <p>Rénovation complète, douche à l'italienne, robinetterie, faïence.</p>
-            </div>
-          </div>
-          <span class="service-tag">Rénovation</span>
-        </div>
-
-        <div class="service-row">
-          <div class="service-row-left">
-            <span class="service-num">04</span>
-            <div>
-              <h3>Débouchage</h3>
-              <p>Canalisation bouchée, siphon, WC — intervention rapide.</p>
-            </div>
-          </div>
-          <span class="service-tag">Urgence</span>
-        </div>
-
-        <div class="service-row">
-          <div class="service-row-left">
-            <span class="service-num">05</span>
-            <div>
-              <h3>Eau chaude sanitaire</h3>
-              <p>Pose et remplacement de chauffe-eau électrique ou thermodynamique.</p>
-            </div>
-          </div>
-          <span class="service-tag">Pose</span>
-        </div>
-
-        <div class="service-row">
-          <div class="service-row-left">
-            <span class="service-num">06</span>
-            <div>
-              <h3>Climatisation</h3>
-              <p>Installation et entretien de systèmes de climatisation (split, multi-split).</p>
-            </div>
-          </div>
-          <span class="service-tag">Installation &amp; entretien</span>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- À PROPOS -->
-  <section class="about" id="about">
-    <div class="wrap">
-      <div class="about-layout">
-
-        <div class="about-text rv">
-          <div class="sec-label">Qui sommes-nous ?</div>
-          <h2 class="sec-title" style="color:var(--white)">Un artisan,<br>une parole.</h2>
-          <p>Nicolas est plombier chauffagiste de métier, installé à son compte depuis 2025 après des années d'expérience sur le terrain. Chaque intervention est suivie de près, avec le souci du travail bien fait et le respect de vos délais.</p>
-          <p>Lucie assure la gestion administrative de l'entreprise : devis, facturation, planning et suivi client. Ensemble, ils forment un binôme complémentaire pour vous offrir un service sérieux, réactif et humain.</p>
-
-          <div class="about-certs">
-            <div class="cert">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9"/></svg>
-              Qualifié RGE
-            </div>
-            <div class="cert">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <div class="hero-bar-item">
+              <div class="hero-bar-icon">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+              </div>
               Garantie décennale
             </div>
-            <div class="cert">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-              Devis détaillé &amp; transparent
+            <div class="hero-bar-item">
+              <div class="hero-bar-icon">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M20 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"
+                  />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+              </div>
+              Artisan indépendant
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="about-photo rv">
-          <picture>
-            <source srcset="assets/images/portrait.webp" type="image/webp">
-            <img src="assets/images/portrait.jpg" alt="Nicolas BEJA, plombier chauffagiste" width="800" height="1200" loading="lazy">
-          </picture>
-        </div>
+      <!-- SERVICES -->
+      <section class="services" id="services">
+        <div class="wrap">
+          <div class="services-top rv">
+            <div>
+              <div class="sec-label">Nos prestations</div>
+              <h2 class="sec-title">Ce que nous faisons</h2>
+            </div>
+            <p>
+              Du dépannage à la rénovation complète, nous intervenons sur tous
+              vos travaux de plomberie, climatisation et chauffage.
+            </p>
+          </div>
 
-      </div>
-    </div>
-  </section>
+          <div class="services-list rv">
+            <div class="service-row">
+              <div class="service-row-left">
+                <span class="service-num">01</span>
+                <div>
+                  <h3>Plomberie générale</h3>
+                  <p>
+                    Fuite, robinet, chauffe-eau, siphon, WC — tout ce qui touche
+                    à l'eau.
+                  </p>
+                </div>
+              </div>
+              <span class="service-tag">Dépannage &amp; pose</span>
+            </div>
 
-  <!-- ZONE -->
-  <section class="zone" id="zone">
-    <div class="wrap">
-      <div class="zone-layout">
+            <div class="service-row">
+              <div class="service-row-left">
+                <span class="service-num">02</span>
+                <div>
+                  <h3>Chauffage &amp; chaudière</h3>
+                  <p>
+                    Installation, remplacement, entretien annuel de chaudière
+                    gaz ou fioul et de pompe à chaleur air-eau.
+                  </p>
+                </div>
+              </div>
+              <span class="service-tag">Entretien &amp; installation</span>
+            </div>
 
-        <div class="zone-text rv">
-          <div class="sec-label">Où j'interviens</div>
-          <h2 class="sec-title">Zone d'intervention</h2>
-          <p>Je travaille principalement dans l'Ain et la petite couronne. Contactez-moi pour vérifier si votre commune est couverte.</p>
-          <div class="zone-list">
-            <span class="zone-chip">Ain (01)</span>
-            <span class="zone-chip">Jura (39)</span>
-            <span class="zone-chip">Rhône (69)</span>
-            <span class="zone-chip">Saône-et-Loire (71)</span>
-            <span class="zone-chip">Isère (38)</span>
-            <span class="zone-chip">Haute-Savoie (74)</span>
+            <div class="service-row">
+              <div class="service-row-left">
+                <span class="service-num">03</span>
+                <div>
+                  <h3>Salle de bain</h3>
+                  <p>
+                    Rénovation complète, douche à l'italienne, robinetterie,
+                    faïence.
+                  </p>
+                </div>
+              </div>
+              <span class="service-tag">Rénovation</span>
+            </div>
+
+            <div class="service-row">
+              <div class="service-row-left">
+                <span class="service-num">04</span>
+                <div>
+                  <h3>Désengorgement</h3>
+                  <p>Canalisation bouchée, siphon, WC — intervention rapide.</p>
+                </div>
+              </div>
+              <span class="service-tag">Urgence</span>
+            </div>
+
+            <div class="service-row">
+              <div class="service-row-left">
+                <span class="service-num">05</span>
+                <div>
+                  <h3>Eau chaude sanitaire</h3>
+                  <p>
+                    Pose et remplacement de chauffe-eau électrique ou
+                    thermodynamique.
+                  </p>
+                </div>
+              </div>
+              <span class="service-tag">Pose</span>
+            </div>
+
+            <div class="service-row">
+              <div class="service-row-left">
+                <span class="service-num">06</span>
+                <div>
+                  <h3>Climatisation</h3>
+                  <p>
+                    Installation et entretien de systèmes de climatisation
+                    (split, multi-split).
+                  </p>
+                </div>
+              </div>
+              <span class="service-tag">Installation &amp; entretien</span>
+            </div>
+
+            <div class="service-row">
+              <div class="service-row-left">
+                <span class="service-num">06</span>
+                <div>
+                  <h3>Ventilation</h3>
+                  <p>
+                    Installation et entretien de systèmes de ventilation
+                    mécanique controlée. (simple flux, double flux, VMC
+                    hygroréglable)
+                  </p>
+                </div>
+              </div>
+              <span class="service-tag">Installation &amp; entretien</span>
+            </div>
+
+            <div class="mat-section rv">
+              <div class="sec-label" style="margin-bottom: 1.5rem">
+                Matériaux maîtrisés
+              </div>
+              <div class="mat-showcase">
+                <div class="mat-card mat-card--noir">
+                  <div class="mat-top"></div>
+                  <strong>Acier noir</strong>
+                  <span>Tuyauteries &amp; chauffage industriel</span>
+                </div>
+
+                <div class="mat-card mat-card--galva">
+                  <div class="mat-top"></div>
+                  <strong>Acier galvanisé</strong>
+                  <span>Résistance à la corrosion &amp; longévité</span>
+                </div>
+
+                <div class="mat-card mat-card--cuivre">
+                  <div class="mat-top"></div>
+                  <strong>Cuivre</strong>
+                  <span>Eau chaude sanitaire &amp; plomberie fine</span>
+                </div>
+
+                <div class="mat-card mat-card--inox">
+                  <div class="mat-top"></div>
+                  <strong>Inox</strong>
+                  <span>Hygiène, précision &amp; finitions premium</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="zone-map rv">
-          <iframe
-            src="https://maps.google.com/maps?q=Revonnas,01250,France&z=10&output=embed"
-            width="100%" height="100%"
-            style="border:0"
-            allowfullscreen
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            title="Zone d'intervention — Revonnas et alentours">
-          </iframe>
-        </div>
+      <!-- À PROPOS -->
+      <section class="about" id="about">
+        <div class="wrap">
+          <div class="about-layout">
+            <div class="about-text rv">
+              <div class="sec-label">Qui sommes-nous ?</div>
+              <h2 class="sec-title" style="color: var(--white)">
+                Un artisan,<br />une parole.
+              </h2>
+              <p>
+                Nicolas et Lucie sont associés et co-gérants de l'entreprise.
+                Nicolas, plombier chauffagiste de métier, intervient directement
+                sur les chantiers avec des années d'expérience derrière lui.
+                Chaque chantier est suivi de près, avec le souci du travail bien
+                fait et le respect de vos délais.
+              </p>
+              <p>
+                Lucie pilote la partie administrative : devis, facturation,
+                planning et suivi client — pour que vous ayez toujours un
+                interlocuteur disponible. Un ouvrier qualifié complète l'équipe.
+                Nous faisons également appel à des sous-traitants de confiance
+                lorsque le chantier le nécessite.
+              </p>
 
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <div class="wrap">
-      <div class="contact-layout">
-
-        <div class="contact-intro rv">
-          <div class="sec-label">Me contacter</div>
-          <h2 class="sec-title">Parlons-en</h2>
-          <p>Décrivez-moi votre besoin, je vous réponds rapidement. Le devis est toujours gratuit.</p>
-
-          <div class="contact-channels">
-            <a href="tel:+33609554565" class="channel">
-              <div class="channel-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+              <div class="about-certs">
+                <div class="cert">
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M9 12l2 2 4-4" />
+                    <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9" />
+                  </svg>
+                  Qualification RGE : Ventilation+
+                </div>
+                <div class="cert">
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                  Qualification RGE : QualiPAC
+                </div>
               </div>
-              <div>
-                <div class="channel-label">Téléphone</div>
-                <div class="channel-val">06 09 55 45 65</div>
-              </div>
-            </a>
-            <a href="mailto:contact@beja-chauffage.fr" class="channel">
-              <div class="channel-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              </div>
-              <div>
-                <div class="channel-label">Email</div>
-                <div class="channel-val">contact@beja-chauffage.fr</div>
-              </div>
-            </a>
+            </div>
+
+            <div class="about-photo rv">
+              <picture>
+                <source srcset="assets/images/portrait.jpg" type="image/webp" />
+                <img
+                  src="assets/images/portrait.jpg"
+                  alt="Nicolas BEJA, plombier chauffagiste"
+                  width="800"
+                  height="1200"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
           </div>
         </div>
+      </section>
 
+      <!-- ZONE -->
+      <section class="zone" id="zone">
+        <div class="wrap">
+          <div class="zone-layout">
+            <div class="zone-text rv">
+              <div class="sec-label">Où j'interviens</div>
+              <h2 class="sec-title">Zone d'intervention</h2>
+              <p>
+                Je travaille principalement dans l'Ain et la petite couronne.
+                Contactez-moi pour vérifier si votre commune est couverte.
+              </p>
+              <div class="zone-list">
+                <span class="zone-chip">Ain (01)</span>
+                <span class="zone-chip">Jura (39)</span>
+                <span class="zone-chip">Rhône (69)</span>
+                <span class="zone-chip">Saône-et-Loire (71)</span>
+                <span class="zone-chip">Isère (38)</span>
+              </div>
+            </div>
 
+            <div class="zone-map rv">
+              <iframe
+                src="https://maps.google.com/maps?q=Revonnas,01250,France&z=10&output=embed"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Zone d'intervention — Revonnas et alentours"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact" id="contact">
+        <div class="wrap">
+          <div class="contact-layout">
+            <div class="contact-intro rv">
+              <div class="sec-label">Me contacter</div>
+              <h2 class="sec-title">Parlons-en</h2>
+              <p>
+                Décrivez-moi votre besoin, je vous réponds rapidement. Le devis
+                est toujours gratuit.
+              </p>
+
+              <div class="contact-channels">
+                <a href="tel:+33662655575" class="channel">
+                  <div class="channel-icon">
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="channel-label">Téléphone</div>
+                    <div class="channel-val">06 62 65 55 75</div>
+                  </div>
+                </a>
+                <a href="mailto:contact@beja-chauffage.fr" class="channel">
+                  <div class="channel-icon">
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                      />
+                      <polyline points="22,6 12,13 2,6" />
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="channel-label">Email</div>
+                    <div class="channel-val">contact@beja-chauffage.fr</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <a href="#" class="footer-logo">
+          <img
+            src="assets/images/logo.png"
+            alt="Beja Nicolas — Plombier Chauffagiste"
+            width="76"
+            height="54"
+          />
+        </a>
+        <div class="footer-links">
+          <a href="mentions-legales.html">Mentions légales</a>
+        </div>
+        <span style="font-size: 0.82rem">© 2026</span>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="wrap footer-inner">
-      <a href="#" class="footer-logo">
-        <img src="assets/images/logo.png" alt="Beja Nicolas — Plombier Chauffagiste" width="76" height="54">
-      </a>
-      <div class="footer-links">
-        <a href="mentions-legales.html">Mentions légales</a>
-      </div>
-      <span style="font-size:.82rem">© 2026</span>
-    </div>
-  </footer>
-
-  <script src="js/main.js" defer></script>
-
-</body>
+    <script src="js/main.js" defer></script>
+  </body>
 </html>
