@@ -122,6 +122,7 @@ img { display: block; max-width: 100%; }
 .nav-logo img {
   height: 93px;
   width: auto;
+  aspect-ratio: 88 / 62;
   display: block;
 }
 .nav-links {
@@ -694,6 +695,7 @@ section { padding-block: 88px; }
 .footer-logo img {
   height: 81px;
   width: auto;
+  aspect-ratio: 76 / 54;
   display: block;
   filter: brightness(0) invert(1);
   opacity: .85;
