@@ -30,6 +30,9 @@ ssh root@VPS bash /var/www/beja-chauffage-plomberie.fr/deploy/deploy.sh
 curl -I http://beja-chauffage-plomberie.fr/                 # 301 vers https://www.
 curl -I https://beja-chauffage-plomberie.fr/                # 301 vers https://www.
 curl -I https://www.beja-chauffage-plomberie.fr/            # 200
+curl -I https://www.beja-chauffage-plomberie.fr/index.html          # 301 vers /
+curl -I https://www.beja-chauffage-plomberie.fr/realisations.html   # 301 vers /realisations
+curl -I https://www.beja-chauffage-plomberie.fr/realisations        # 200
 curl -I https://www.beja-chauffage-plomberie.fr/inexistant  # 404 (page 404.html)
 curl -I https://www.beja-chauffage-plomberie.fr/.git/config # 404
 ```
