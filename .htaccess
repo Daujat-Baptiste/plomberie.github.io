@@ -1,0 +1,50 @@
+# ── Beja Nicolas — configuration Apache (OVH mutualisé) ──────────────
+
+# Encodage par défaut
+AddDefaultCharset UTF-8
+
+# Redirection unique : http → https et apex → www (évite la double redirection)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP_HOST} !^www\.beja-chauffage-plomberie\.fr$ [NC]
+  RewriteRule ^(.*)$ https://www.beja-chauffage-plomberie.fr/$1 [R=301,L]
+</IfModule>
+
+# Page 404 personnalisée
+ErrorDocument 404 /404.html
+
+# Types MIME
+<IfModule mod_mime.c>
+  AddType font/woff2 .woff2
+  AddType application/manifest+json .webmanifest
+  AddType image/svg+xml .svg
+</IfModule>
+
+# Cache navigateur
+<IfModule mod_headers.c>
+  # Ressources statiques : un an, immuables
+  <FilesMatch "\.(woff2|jpg|jpeg|png|webp|svg|ico|css|js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  # Pages HTML, sitemap, robots, manifest : revalidation courte
+  <FilesMatch "\.(html|xml|txt|webmanifest)$">
+    Header set Cache-Control "public, max-age=600, must-revalidate"
+  </FilesMatch>
+  # En-têtes de sécurité
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# Compression
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/css text/javascript application/javascript application/json application/manifest+json image/svg+xml text/xml text/plain
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json application/manifest+json image/svg+xml text/xml text/plain
+</IfModule>
+
+# Empêcher le listage des répertoires
+Options -Indexes
